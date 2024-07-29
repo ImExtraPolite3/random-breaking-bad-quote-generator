@@ -1,0 +1,30 @@
+{
+  "name": "random-breaking-bad-quote-generator",
+  "version": "1.0.0",
+  "description": "Using the Breaking Bad Quotes API, I will display quotes from the popular show Breaking Bad.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImExtraPolite3/random-breaking-bad-quote-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImExtraPolite3/random-breaking-bad-quote-generator/issues"
+  },
+  "homepage": "https://github.com/ImExtraPolite3/random-breaking-bad-quote-generator#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.8.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.8.0",
+    "globals": "^15.8.0",
+    "html-webpack-plugin": "^5.6.0",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4"
+  }
+}
