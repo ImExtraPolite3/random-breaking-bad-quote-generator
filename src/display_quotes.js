@@ -3,5 +3,5 @@ export default function displayQuotes(Quote, Author) {
   const author = document.getElementById('author');
 
   quote.textContent = Quote;
-  author.textContent = Author;
+  author.textContent = `-${Author}`;
 }

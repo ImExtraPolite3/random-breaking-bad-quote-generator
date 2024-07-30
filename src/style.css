@@ -1,0 +1,41 @@
+#reload-page {
+  width: 100%;
+  padding: 10px 0;
+  background-color: lightgray;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+
+#reload-page:hover {
+  background-color: rgb(55, 55, 55);
+  color: white;
+  cursor: pointer;
+}
+
+#quote {
+  margin: 10px 0 0 0;
+  font-size: 3rem;
+}
+
+#author {
+  float: right;
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+@media (min-width: 600px) {
+  #container {
+    width: 80%;
+    margin: auto;
+  }
+
+  #quote {
+    font-size: 5rem;
+  }
+
+  #author {
+    font-size: 2rem;
+    margin-right: 50px;
+  }
+}
